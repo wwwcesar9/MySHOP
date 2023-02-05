@@ -1,0 +1,16 @@
+#Blog h3{
+    text-align: center;
+}
+#Blog .Contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Blog article{
+    margin: 6px;
+
+}
+#Blog img{
+    width: 98%;
+    max-width: 280px;
+}

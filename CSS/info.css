@@ -1,0 +1,31 @@
+#Info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    
+}
+.Info.Contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Info-Shop{
+    margin: 24px;
+}
+.Info-Shop img{
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    
+}
+@media (min-width:480px){
+    .Info-Shop{
+      width: 40%;
+    }
+  }
+  @media (min-width:480px){
+    .Info-Shop{
+      width: auto;
+    }
+  }
